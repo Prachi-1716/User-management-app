@@ -37,19 +37,21 @@ A basic user management application built using **Node.js**, **Express.js**, **F
 ## 📁 Project Structure
 
 user-management-app/
-├── app.js # Main Express app
-├── routes/ # Route handlers
-│ ├── users.js # All user-related routes
-├── views/ # HTML templates or EJS files
-│ ├── home.html
-│ ├── users.html
-│ ├── addUser.html
-│ ├── editUser.html
-├── public/ # Static files (CSS, images, etc.)
-├── db/ # SQL setup scripts and DB connection
-│ └── db.js
-├── package.json
-└── README.md
+
+├── app.js # Main Express app <br>
+├── routes/ # Route handlers  <br>
+│ ├── users.js # All user-related routes <br>
+├── views/ # HTML templates or EJS files <br>
+│ ├── home.ejs <br>
+│ ├── users.ejs <br>
+│ ├── userDetails.ejs <br>
+│ ├── editUser.ejs <br>
+| ├── delete.ejs <br>
+├── public/ # Static files (CSS, images, etc.) <br>
+├── db/ # SQL setup scripts and DB connection <br>
+│ └── db.js <br>
+├── package.json <br>
+└── README.md <br>
 
 
 ---
